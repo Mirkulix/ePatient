@@ -9,7 +9,7 @@ verschienden Themes wie MetroUISet und XanderUI gearbeitet wird. Es wird gezeigt
 genutz werden kann. Es wird ein DataModel (SQL-Datei) gezeigt für Infomationen zum Thema EMR im Bereich der medizinschen Daten 
 aufgebaut ist.
 
-Das Projekt wird kontinuierlich wieter geführt für die Menschen, die gerne in Visual Studio 2019 mit WinForms arbeiten wollen.
+Das Projekt wird kontinuierlich wietergeführt für die Menschen, die gerne in Visual Studio 2019 mit WinForms arbeiten wollen.
 
 
 ......
