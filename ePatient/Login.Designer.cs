@@ -112,7 +112,7 @@
             this.lbl_Beschreibung.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbl_Beschreibung.Location = new System.Drawing.Point(15, 91);
             this.lbl_Beschreibung.Name = "lbl_Beschreibung";
-            this.lbl_Beschreibung.Size = new System.Drawing.Size(268, 141);
+            this.lbl_Beschreibung.Size = new System.Drawing.Size(268, 66);
             this.lbl_Beschreibung.Style = MetroSet_UI.Design.Style.Light;
             this.lbl_Beschreibung.StyleManager = null;
             this.lbl_Beschreibung.TabIndex = 9;
