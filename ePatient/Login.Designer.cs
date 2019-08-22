@@ -98,7 +98,7 @@
             this.tbx_Login.Size = new System.Drawing.Size(179, 22);
             this.tbx_Login.Style = MetroSet_UI.Design.Style.Light;
             this.tbx_Login.StyleManager = null;
-            this.tbx_Login.TabIndex = 6;
+            this.tbx_Login.TabIndex = 1;
             this.tbx_Login.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbx_Login.ThemeAuthor = "Narwin";
             this.tbx_Login.ThemeName = "MetroLite";
@@ -139,7 +139,7 @@
             this.tbx_password.Size = new System.Drawing.Size(179, 22);
             this.tbx_password.Style = MetroSet_UI.Design.Style.Light;
             this.tbx_password.StyleManager = null;
-            this.tbx_password.TabIndex = 11;
+            this.tbx_password.TabIndex = 2;
             this.tbx_password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbx_password.ThemeAuthor = "Narwin";
             this.tbx_password.ThemeName = "MetroLite";
@@ -166,7 +166,7 @@
             this.btn_Anmelden.Size = new System.Drawing.Size(138, 23);
             this.btn_Anmelden.Style = MetroSet_UI.Design.Style.Light;
             this.btn_Anmelden.StyleManager = null;
-            this.btn_Anmelden.TabIndex = 12;
+            this.btn_Anmelden.TabIndex = 3;
             this.btn_Anmelden.Text = "Anmelden";
             this.btn_Anmelden.ThemeAuthor = "Narwin";
             this.btn_Anmelden.ThemeName = "MetroLite";
