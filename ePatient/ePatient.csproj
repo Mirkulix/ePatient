@@ -197,6 +197,8 @@
       <DependentUpon>MediDatenbank.edmx</DependentUpon>
       <LastGenOutput>MediDatenbank.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\Ribbon.png" />
+    <None Include="Resources\Hintergrund1.png" />
     <None Include="Resources\Hintergrund.png" />
   </ItemGroup>
   <ItemGroup>

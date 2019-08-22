@@ -41,7 +41,7 @@ namespace ePatient
             tbx_regPassword.UseSystemPasswordChar = true;
             tbx_regConirmPassword.UseSystemPasswordChar = true;
             lbl_Beschreibung.Text = "Der ePatient ermöglicht es Dir, für den Notfall vorberietet zu sein. Er beantwortet die Frage: 'Was passiert, wenn was passiert !' ";
-
+            
         }
 
         private void click_anmelden(object sender, EventArgs e)
@@ -64,7 +64,8 @@ namespace ePatient
                     Form_Dashboard dboard = new Form_Dashboard(userID);
                     dboard.Show();
 
-                    MessageBox.Show("Login war erfolgreich !");
+                    // MessageBox.Show("Login war erfolgreich !");
+                    Form_Verstecken();
 
                     return;
                     //hier ist der Exitpunkt für die Anmeldeung
@@ -139,6 +140,13 @@ namespace ePatient
         private void Click_Registrierung(object sender, EventArgs e)
         {
             AddUser(tbx_regUsername.Text, tbx_regPassword.Text, tbx_regConirmPassword.Text);
+        }
+
+
+        private void Form_Verstecken()
+        {
+            this.Visible = false;
+            this.ShowInTaskbar = false;
         }
     }
 }

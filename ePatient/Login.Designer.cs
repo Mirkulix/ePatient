@@ -43,14 +43,12 @@
             this.lbl_reg_password = new MetroSet_UI.Controls.MetroSetLabel();
             this.lbl_regConfirm_password = new MetroSet_UI.Controls.MetroSetLabel();
             this.btn_Registrieren = new MetroSet_UI.Controls.MetroSetButton();
-            this.pic_Login = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Login)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_
             // 
             this.lbl_.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_.Location = new System.Drawing.Point(338, 7);
+            this.lbl_.Location = new System.Drawing.Point(32, 472);
             this.lbl_.Name = "lbl_";
             this.lbl_.Size = new System.Drawing.Size(179, 17);
             this.lbl_.Style = MetroSet_UI.Design.Style.Custom;
@@ -69,7 +67,7 @@
             // metroSetLabel1
             // 
             this.metroSetLabel1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.metroSetLabel1.Location = new System.Drawing.Point(523, 7);
+            this.metroSetLabel1.Location = new System.Drawing.Point(217, 472);
             this.metroSetLabel1.Name = "metroSetLabel1";
             this.metroSetLabel1.Size = new System.Drawing.Size(179, 15);
             this.metroSetLabel1.Style = MetroSet_UI.Design.Style.Custom;
@@ -92,7 +90,7 @@
             this.tbx_Login.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.tbx_Login.Image = null;
             this.tbx_Login.Lines = null;
-            this.tbx_Login.Location = new System.Drawing.Point(338, 27);
+            this.tbx_Login.Location = new System.Drawing.Point(32, 492);
             this.tbx_Login.MaxLength = 32767;
             this.tbx_Login.Multiline = false;
             this.tbx_Login.Name = "tbx_Login";
@@ -110,9 +108,9 @@
             // lbl_Beschreibung
             // 
             this.lbl_Beschreibung.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lbl_Beschreibung.Location = new System.Drawing.Point(15, 91);
+            this.lbl_Beschreibung.Location = new System.Drawing.Point(21, 97);
             this.lbl_Beschreibung.Name = "lbl_Beschreibung";
-            this.lbl_Beschreibung.Size = new System.Drawing.Size(268, 66);
+            this.lbl_Beschreibung.Size = new System.Drawing.Size(268, 70);
             this.lbl_Beschreibung.Style = MetroSet_UI.Design.Style.Light;
             this.lbl_Beschreibung.StyleManager = null;
             this.lbl_Beschreibung.TabIndex = 9;
@@ -133,7 +131,7 @@
             this.tbx_password.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.tbx_password.Image = null;
             this.tbx_password.Lines = null;
-            this.tbx_password.Location = new System.Drawing.Point(523, 27);
+            this.tbx_password.Location = new System.Drawing.Point(217, 492);
             this.tbx_password.MaxLength = 32767;
             this.tbx_password.Multiline = false;
             this.tbx_password.Name = "tbx_password";
@@ -157,7 +155,7 @@
             this.btn_Anmelden.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
             this.btn_Anmelden.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
             this.btn_Anmelden.HoverTextColor = System.Drawing.Color.White;
-            this.btn_Anmelden.Location = new System.Drawing.Point(751, 27);
+            this.btn_Anmelden.Location = new System.Drawing.Point(445, 492);
             this.btn_Anmelden.Name = "btn_Anmelden";
             this.btn_Anmelden.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
             this.btn_Anmelden.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
@@ -187,7 +185,7 @@
             this.tbx_regUsername.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.tbx_regUsername.Image = null;
             this.tbx_regUsername.Lines = null;
-            this.tbx_regUsername.Location = new System.Drawing.Point(30, 340);
+            this.tbx_regUsername.Location = new System.Drawing.Point(695, 330);
             this.tbx_regUsername.MaxLength = 32767;
             this.tbx_regUsername.Multiline = false;
             this.tbx_regUsername.Name = "tbx_regUsername";
@@ -215,7 +213,7 @@
             this.tbx_regPassword.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.tbx_regPassword.Image = null;
             this.tbx_regPassword.Lines = null;
-            this.tbx_regPassword.Location = new System.Drawing.Point(30, 390);
+            this.tbx_regPassword.Location = new System.Drawing.Point(695, 380);
             this.tbx_regPassword.MaxLength = 32767;
             this.tbx_regPassword.Multiline = false;
             this.tbx_regPassword.Name = "tbx_regPassword";
@@ -243,7 +241,7 @@
             this.tbx_regConirmPassword.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.tbx_regConirmPassword.Image = null;
             this.tbx_regConirmPassword.Lines = null;
-            this.tbx_regConirmPassword.Location = new System.Drawing.Point(30, 443);
+            this.tbx_regConirmPassword.Location = new System.Drawing.Point(695, 433);
             this.tbx_regConirmPassword.MaxLength = 32767;
             this.tbx_regConirmPassword.Multiline = false;
             this.tbx_regConirmPassword.Name = "tbx_regConirmPassword";
@@ -261,7 +259,7 @@
             // lbl_reg_username
             // 
             this.lbl_reg_username.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_reg_username.Location = new System.Drawing.Point(30, 316);
+            this.lbl_reg_username.Location = new System.Drawing.Point(695, 306);
             this.lbl_reg_username.Name = "lbl_reg_username";
             this.lbl_reg_username.Size = new System.Drawing.Size(179, 17);
             this.lbl_reg_username.Style = MetroSet_UI.Design.Style.Custom;
@@ -274,7 +272,7 @@
             // lbl_reg_password
             // 
             this.lbl_reg_password.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_reg_password.Location = new System.Drawing.Point(30, 372);
+            this.lbl_reg_password.Location = new System.Drawing.Point(695, 362);
             this.lbl_reg_password.Name = "lbl_reg_password";
             this.lbl_reg_password.Size = new System.Drawing.Size(179, 15);
             this.lbl_reg_password.Style = MetroSet_UI.Design.Style.Custom;
@@ -287,7 +285,7 @@
             // lbl_regConfirm_password
             // 
             this.lbl_regConfirm_password.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_regConfirm_password.Location = new System.Drawing.Point(30, 425);
+            this.lbl_regConfirm_password.Location = new System.Drawing.Point(695, 415);
             this.lbl_regConfirm_password.Name = "lbl_regConfirm_password";
             this.lbl_regConfirm_password.Size = new System.Drawing.Size(179, 15);
             this.lbl_regConfirm_password.Style = MetroSet_UI.Design.Style.Custom;
@@ -306,7 +304,7 @@
             this.btn_Registrieren.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
             this.btn_Registrieren.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
             this.btn_Registrieren.HoverTextColor = System.Drawing.Color.White;
-            this.btn_Registrieren.Location = new System.Drawing.Point(30, 502);
+            this.btn_Registrieren.Location = new System.Drawing.Point(695, 492);
             this.btn_Registrieren.Name = "btn_Registrieren";
             this.btn_Registrieren.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
             this.btn_Registrieren.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
@@ -323,22 +321,11 @@
             this.btn_Registrieren.ThemeName = "MetroLite";
             this.btn_Registrieren.Click += new System.EventHandler(this.Click_Registrierung);
             // 
-            // pic_Login
-            // 
-            this.pic_Login.BackColor = System.Drawing.SystemColors.Window;
-            this.pic_Login.Image = global::ePatient.Properties.Resources.Hintergrund;
-            this.pic_Login.Location = new System.Drawing.Point(338, 70);
-            this.pic_Login.Margin = new System.Windows.Forms.Padding(0);
-            this.pic_Login.Name = "pic_Login";
-            this.pic_Login.Size = new System.Drawing.Size(639, 675);
-            this.pic_Login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pic_Login.TabIndex = 4;
-            this.pic_Login.TabStop = false;
-            // 
             // frm_ePatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::ePatient.Properties.Resources.Ribbon;
             this.ClientSize = new System.Drawing.Size(931, 594);
             this.Controls.Add(this.btn_Registrieren);
             this.Controls.Add(this.lbl_regConfirm_password);
@@ -353,11 +340,9 @@
             this.Controls.Add(this.tbx_Login);
             this.Controls.Add(this.metroSetLabel1);
             this.Controls.Add(this.lbl_);
-            this.Controls.Add(this.pic_Login);
             this.Name = "frm_ePatient";
             this.Text = "ePatient";
             this.Load += new System.EventHandler(this.FormLoad);
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Login)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -366,7 +351,6 @@
 
         private MetroSet_UI.Controls.MetroSetLabel lbl_;
         private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.PictureBox pic_Login;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel1;
         private MetroSet_UI.Controls.MetroSetTextBox tbx_Login;
         private MetroSet_UI.Controls.MetroSetLabel lbl_Beschreibung;

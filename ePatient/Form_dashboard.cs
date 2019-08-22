@@ -25,7 +25,9 @@ namespace ePatient
         {
             InitializeComponent();
             this.userID_H = userID;
-            MessageBox.Show(userID_H.ToString());
+            //MessageBox.Show(userID_H.ToString());
+
+            
         }
     }
 }
