@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MetroSet_UI.Forms;
 using XanderUI.Designers;
 using System.Security.Cryptography;
+using Nemiro.OAuth.LoginForms;
 
 namespace ePatient
 {
@@ -147,6 +148,12 @@ namespace ePatient
         {
             this.Visible = false;
             this.ShowInTaskbar = false;
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            var Login = new GoogleLogin();
+             Login = 
         }
     }
 }

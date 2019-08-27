@@ -43,6 +43,7 @@
             this.lbl_reg_password = new MetroSet_UI.Controls.MetroSetLabel();
             this.lbl_regConfirm_password = new MetroSet_UI.Controls.MetroSetLabel();
             this.btn_Registrieren = new MetroSet_UI.Controls.MetroSetButton();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_
@@ -321,12 +322,23 @@
             this.btn_Registrieren.ThemeName = "MetroLite";
             this.btn_Registrieren.Click += new System.EventHandler(this.Click_Registrierung);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(32, 407);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(197, 48);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
             // frm_ePatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ePatient.Properties.Resources.Ribbon;
             this.ClientSize = new System.Drawing.Size(931, 594);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_Registrieren);
             this.Controls.Add(this.lbl_regConfirm_password);
             this.Controls.Add(this.lbl_reg_password);
@@ -363,5 +375,6 @@
         private MetroSet_UI.Controls.MetroSetLabel lbl_reg_password;
         private MetroSet_UI.Controls.MetroSetLabel lbl_regConfirm_password;
         private MetroSet_UI.Controls.MetroSetButton btn_Registrieren;
+        private System.Windows.Forms.Button button1;
     }
 }
