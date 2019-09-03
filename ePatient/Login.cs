@@ -11,6 +11,8 @@ using MetroSet_UI.Forms;
 using XanderUI.Designers;
 using System.Security.Cryptography;
 using Nemiro.OAuth.LoginForms;
+using System.Data.Entity;
+
 
 namespace ePatient
 {
@@ -51,31 +53,46 @@ namespace ePatient
             string username = tbx_Login.Text;
             string password = HPass(tbx_password.Text);
 
-            foreach (var user in db.Logins)
+            try
             {
-                // Suche nach Benutzern 
-                if (user.Username == username && user.Password == password)
+
+                foreach (var user in db.Logins)
                 {
-                    tbx_Login.Text = String.Empty;
-                    tbx_password.Text = String.Empty;
+                    // Suche nach Benutzern 
+                    if (user.Username == username && user.Password == password)
+                    {
+                        tbx_Login.Text = String.Empty;
+                        tbx_password.Text = String.Empty;
 
 
-                    userID = user.Id_Login;
+                        userID = user.Id_Login;
 
-                    Form_Dashboard dboard = new Form_Dashboard(userID);
-                    dboard.Show();
+                        Form_Dashboard dboard = new Form_Dashboard(userID);
+                        dboard.Show();
 
-                    // MessageBox.Show("Login war erfolgreich !");
-                    Form_Verstecken();
+                        // MessageBox.Show("Login war erfolgreich !");
+                        Form_Verstecken();
 
-                    return;
-                    //hier ist der Exitpunkt für die Anmeldeung
+                        return;
+                        //hier ist der Exitpunkt für die Anmeldeung
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Password/Username sind Falsch !");
+                    }
 
                 }
-
-                MessageBox.Show("Password/Username sind Falsch !");
-
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            //finally
+            //{
+                
+            //}
+            
 
 
         }
@@ -152,8 +169,8 @@ namespace ePatient
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            var Login = new GoogleLogin();
-             Login = 
+            //var Login = new GoogleLogin();
+             
         }
     }
 }
